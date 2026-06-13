@@ -4,7 +4,7 @@ import react from '@astrojs/react';
 
 export default defineConfig({
   site: 'https://kohiro805.github.io',
-  base: '/Hiroto-s-Profile/',
+  base: '/Profile/',
   integrations: [tailwind(), react()],
   output: 'static',
 });
